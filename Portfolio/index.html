@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- sniper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <!-- box icons  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <!-- header design  -->
+        <a href="#" class="logo">Portfolio</a>
+
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About </a>
+            <a href="#services">Skills </a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact </a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"> </div>
+
+    </header>
+
+
+    <!-- home section  -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>hello , I am </h3>
+            <h1>Suraj Chhetri </h1>
+            <p>and i am a passionate coder</p>
+
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+            <a href="#" class="btn">Resume</a>
+
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bxs-camera'></i>
+                    <h3>Web Developer </h3>
+                </div>
+                <div class="profession" style="--i:1">
+                    <i class='bx bxs-video-recording'></i>
+                    <h3>Web Developer</h3>
+                    <!-- style give  look at it what it is -->
+                </div>
+                <div class="profession" style="--i:2">
+                    <i class='bx bxs-palette'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:3">
+                    <i class='bx bx-message-dots'></i>
+                    <h3>Web Developer</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+        <div class="home-img">
+            <img src="img/self.jpg" >
+        </div>
+
+
+    </section>
+
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/img.jpg" alt="">
+
+
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>me</span></h2>
+            <h3>Who I am </h3>
+            <p>Dedicated and innovative individual with a passion for creative problem-solving. Proficient in leveraging diverse skills to deliver impactful solutions and contribute positively to any team or project.
+                <br>
+
+
+                - 🧠 Coding is my passion. <br>
+                <br>
+            </p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+
+    <!-- services section  -->
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxl-html5'></i>
+                <h3>HTML & CSS</h3>
+                <p>Proficient in building responsive and visually appealing web interfaces using HTML and CSS. Skilled in creating engaging user experiences through meticulous attention to design details and layout aesthetics.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-javascript'></i>
+                <h3>JAVASCRIPT</h3>
+                <p>Experienced in crafting interactive and dynamic web applications using JavaScript. Proficient in utilizing libraries and frameworks to enhance user engagement and functionality.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-nodejs'></i>
+                <h3>NODE JS</h3>
+                <p>Skilled in server-side development with Node.js, creating efficient and scalable backends. Well-versed in managing APIs, handling requests, and implementing robust server architecture.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-react'></i>
+                <h3>REACT JS</h3>
+                <p>Proficient in developing user-centric front-end interfaces with React.js. Experienced in building reusable components and implementing state management for seamless and performant web applications.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-c-plus-plus'></i>
+                <h3>C++</h3>
+                <p>Adept in programming with C++, leveraging strong logical and problem-solving skills to develop efficient software solutions. Experienced in algorithm implementation and data structures.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-mongodb'></i>
+                <h3>MONGO DB</h3>
+                <p>Competent in working with MongoDB for database management. Proficient in designing and querying databases to store and retrieve data efficiently, contributing to the seamless functioning of applications.</p>
+                <a href="" class="btn" id="btn" onclick="readtext()">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section  -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/simon.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Simon Says</h4>
+                    <p>Engineered a memory-challenging game, blending design and coding.</p>
+                    <a href="#"><i class='bx bx-plus-medical'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/todo.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>TO DO LIST</h4>
+                    <p>Built a user-friendly ToDo list web app with sleek functionality.</p>
+                    <a href="#"><i class='bx bx-plus-medical'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/spotify.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Spotify Clone</h4>
+                    <p>Crafted a Spotify clone, demonstrating frontend development skills.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- testimonial section -->
+    <div class="testimonial-container">
+        <h2 class="heading">MY <span>Socials</span></h2>
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        
+                        <i class='bx bxl-linkedin-square' > </i>
+                        
+                        <h3>LinkedIn </h3>                      
+                    </div>
+                    <div class="testimonial-slide swiper-slide"> 
+                        <i class='bx bxl-twitter' ></i>
+                        <h3>Twitter</h3>
+                       
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <!-- <img src="/img/Snapchat-679715854.jpg" alt=""> -->
+                        <i class='bx bxl-github' ></i>
+                        <h3>Github</h3>
+                        
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-scrollbar"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section  -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full name">
+                <input type="email" placeholder="Enter E-Mail">
+            </div>
+            <div class="input-box">
+                <input type="Number" placeholder="Mobile number">
+                <input type="email" placeholder="email subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10">Yours Message</textarea>
+            <input type="submit " value="send message " class="btn">
+        </form>
+    </section>
+
+    <!-- footer design  -->
+    <footer class="footer">
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Suraj Chhetri | All Rights Reserved</p>
+        </div>
+        
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script src="script.js">
+    </script>
+    <!-- sniper js  -->
+</body>
+
+</html>
